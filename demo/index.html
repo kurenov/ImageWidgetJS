@@ -11,8 +11,27 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div>
-      
+    <div class="image-widget-js-box">
+      <div class="image-widget-js-header">
+        <ul>
+          <li class="first">
+            <a id="image-widget-js-link-0" class="lim-active" href="javascript:void(0);" onclick="limSetImage(0)">Electric Scooters</a>
+          </li>
+          <li><a id="image-widget-js-link-1" href="javascript:void(0);" onclick="limSetImage(1)" class="lim-passive">Quadcopters</a></li>
+          <li><a id="image-widget-js-link-2" href="javascript:void(0);" onclick="limSetImage(2)" class="lim-passive">Elephone</a></li>
+          <li><a id="image-widget-js-link-3" href="javascript:void(0);" onclick="limSetImage(3)" class="lim-passive">Sale</a></li>
+        </ul>
+      </div>
+      <div class="image-widget-js-body">
+        <img class="image-widget-js-image" id="image-widget-js-image" src="images/scooter.jpg">
+        <div id="image-widget-js-left-button" onclick="limSlider(-1)"></div>
+        <div id="image-widget-js-right-button" onclick="limSlider(1)"></div>
+      </div>
+      <div class="image-widget-js-footer">
+        <a href="#"><img src="images/img-small-0.jpg" class="image-widget-js-thumb floatleft"></a>
+        <a href="#"><img src="images/img-small-1.jpg" class="image-widget-js-thumb floatleft"></a>
+        <a href="#"><img src="images/img-small-2.jpg" class="image-widget-js-thumb floatleft" style="margin-right: 0;"></a>
+      </div>
     </div>
   </body>
 </html>

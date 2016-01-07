@@ -3,3 +3,101 @@
     Author     : Olzhas Kurenov
 */
 
+.image-widget-js-box {
+  margin-top: 10px;
+  width: 680px;
+  margin-left: calc( 50vw - 615px );
+  float: left;
+  margin-bottom: 10px;
+}
+
+.image-widget-js-header {
+  width: 100%;
+  height: 40px;
+  border: #DDD solid 1px;
+}
+
+.image-widget-js-header ul {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.image-widget-js-header li {
+  border-left: #DDD 1px solid;
+  margin-left: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.lim-passive {
+  color: #000;
+}
+
+.lim-active {
+  color: coral;
+}
+
+.image-widget-js-body {
+  position: relative;
+  width: 100%;
+}
+
+.image-widget-js-image {
+  width: 100%;
+  opacity: 1;
+}
+
+.image-widget-js-footer {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.image-widget-js-thumb {
+  width: calc(100% / 3 - 10px);
+  margin-right: 15px;
+}
+
+.image-widget-js-thumb:hover {
+  transition: opacity 0.3s ease-in;
+  opacity: 0.5;
+}
+
+#image-widget-js-left-button {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  left:0;
+  background-image: url('../images/arrow_left.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.2;
+}
+
+#image-widget-js-right-button {
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 50px;
+  height: 100%;
+  background-image: url('../images/arrow_right.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  transition: all 0.3s ease-in-out;
+  background-color: none;
+  opacity: 0.2;
+}
+
+#image-widget-js-left-button:hover, #image-widget-js-right-button:hover {
+  cursor: pointer;
+  transition: all 0.3s linear;
+  background-color: rgba(120,120,120,0.3);
+  opacity: 1;
+}
+
+/*@media only screen and (max-width: 1000px) {
+  
+}*/
